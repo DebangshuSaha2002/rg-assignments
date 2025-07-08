@@ -1,5 +1,4 @@
-//This method of doing the singleton pattern works fine but it is not thread safe
-//So to make it thread safe we can use the double checked locking method
+//Thread safe approach using the double checked locking method
 
 class A{
     public static A obj;
