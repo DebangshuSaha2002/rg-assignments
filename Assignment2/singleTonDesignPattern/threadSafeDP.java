@@ -1,3 +1,5 @@
+package singleTonDesignPattern;
+
 //Thread safe approach using the double checked locking method
 
 class A{

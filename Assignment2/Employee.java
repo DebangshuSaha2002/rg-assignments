@@ -36,6 +36,9 @@ class Developer{
 }
 
 class Employee{
+    public Employee(int i, String bob, String it) {
+    }
+
     public static void main(String[] args) {
         //calling the parameterized constructor to set the default values
         Developer obj = new Developer("Debangshu", 22);

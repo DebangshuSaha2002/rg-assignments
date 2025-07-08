@@ -1,11 +1,11 @@
-class Super {
+class S {
     int num=20;
     public void display() {
         System.out.println("super class method");
     }
 }
 
-public class ThisUse extends Super {
+public class ThisUse extends S{
     int num;
     public ThisUse(int num) {
         this.num=num;

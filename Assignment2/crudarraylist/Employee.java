@@ -1,13 +1,15 @@
+package crudarraylist;
+
 class Employee{
 	private int id;
 	private String name;
-	private String department;
-
     Employee(int id, String name, String department){
         this.id = id;
         this.name = name;
         this.department = department;
     }
+
+	private String department;
 
     public int getId(){ return id; }
     public String getName(){ return name; }
