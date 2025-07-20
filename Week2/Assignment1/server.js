@@ -1,6 +1,7 @@
 const http = require('http');
 
 // TODO 1: In the below line, replace '' with code to import/require transactions data from './data/transactions.json'
+// Using require will automatically parse it to a JSON
 const transactions = require('../tasks3/data/transactions.json');
 
 const server = http.createServer((req, res) => {
